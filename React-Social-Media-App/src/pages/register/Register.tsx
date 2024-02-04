@@ -1,11 +1,12 @@
 import "../../assets/Register.css";
+import "../../assets/NavBar.css";
 
 export const Register = () => {
   return (
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h3 className="loginLogo">Lamasocial</h3>
+          <img src="new.jpeg" alt="" className="topbarImg" />
           <span className="loginDesc">
             Connect with friends and the world around you on Lamasocial.
           </span>

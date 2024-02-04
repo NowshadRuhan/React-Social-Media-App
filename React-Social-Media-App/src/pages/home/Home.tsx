@@ -1,6 +1,6 @@
 import { NavBar } from "../../components/navbar/NavBar";
 import { Feed } from "../../components/feed/Feed";
-//import { RightBar } from "../../components/rightbar/RightBar";
+import RightBar from "../../components/rightbar/RightBar";
 import { SideBar } from "../../components/sidebar/SideBar";
 import "../../assets/Home.css";
 
@@ -11,7 +11,7 @@ export const Home = () => {
       <div className="homeContainer">
         <SideBar />
         <Feed />
-        {/* <RightBar /> */}
+        <RightBar profile="Yes" />
       </div>
     </>
   );
